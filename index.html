@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechHub — магазин техники</title>
+    <meta name="description" content="Современный магазин техники: ноутбуки, смартфоны и аудиотехника с доставкой по всей стране." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav container">
+        <a class="brand" href="#">TechHub</a>
+        <div class="nav-links">
+          <a href="#catalog">Каталог</a>
+          <a href="#about">О нас</a>
+          <a href="#contact">Контакты</a>
+        </div>
+      </nav>
+
+      <div class="container hero-content">
+        <div class="hero-text">
+          <p class="eyebrow">Новые технологии — в каждом доме</p>
+          <h1>Магазин техники для умного образа жизни</h1>
+          <p>
+            Выбирайте ноутбуки, смартфоны, умные колонки и аксессуары по выгодным ценам.
+            Быстрая доставка и гарантия качества — уже сегодня.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#catalog">Смотреть каталог</a>
+            <a class="btn btn-secondary" href="#contact">Связаться с нами</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="hero-card__badge">Лидер продаж</div>
+          <h3>Ноутбук Nova X15</h3>
+          <p>16 ГБ ОЗУ • 1 ТБ SSD • 14-ядерный процессор</p>
+          <div class="price">89 990 ₽</div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="features container" id="about">
+        <article>
+          <h3>🚚 Доставка за 24 часа</h3>
+          <p>Быстрая отправка по Москве и регионам.</p>
+        </article>
+        <article>
+          <h3>🛡️ Гарантия 2 года</h3>
+          <p>Официальная гарантия и сервисное обслуживание.</p>
+        </article>
+        <article>
+          <h3>💳 Рассрочка 0%</h3>
+          <p>Удобные платежи без переплат для постоянных клиентов.</p>
+        </article>
+      </section>
+
+      <section class="catalog container" id="catalog">
+        <div class="section-heading">
+          <p class="eyebrow">Популярные товары</p>
+          <h2>Выберите технику под свои задачи</h2>
+        </div>
+        <div id="product-grid" class="product-grid"></div>
+      </section>
+
+      <section class="contact container" id="contact">
+        <div>
+          <p class="eyebrow">Контакты</p>
+          <h2>Остались вопросы? Мы поможем подобрать идеальный вариант.</h2>
+          <p>Напишите нам в чат или позвоните по номеру, и мы подберём технику под ваш бюджет.</p>
+        </div>
+        <div class="contact-card">
+          <p><strong>Телефон:</strong> +7 (800) 555-12-34</p>
+          <p><strong>Email:</strong> hello@techhub.ru</p>
+          <p><strong>Адрес:</strong> Москва, ул. Технологическая, 12</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
